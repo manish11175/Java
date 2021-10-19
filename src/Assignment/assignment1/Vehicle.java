@@ -161,6 +161,7 @@ public class Vehicle {
 
 
                 }
+
                 System.out.println(map);
                 // mileage per manufacture car
 

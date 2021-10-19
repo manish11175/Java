@@ -1,0 +1,2 @@
+{"name":"Manish Chauhan","email":"manish@gmail.com","phone":"123456789","experience":2.0,"company":{"companyName":"Avizva","designation":"software trainee","startDate":"20-8-2019","endDate":"25-11-2021"}}
+{"name":"Varun Chauhan","email":"varun@gmail.com","phone":"123456789","experience":5.0,"company":{"companyName":"Avizva","designation":"software trainee","startDate":"20-8-2018","endDate":"25-11-2021"}}
