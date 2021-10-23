@@ -2,6 +2,7 @@ package Assignment.assignment1;
 
 
 import java.io.*;
+import java.sql.SQLOutput;
 import java.util.*;
 
 import java.lang.Math;
@@ -140,12 +141,14 @@ public class Vehicle {
                 HashMap<String,ArrayList<Integer>> map =new HashMap<>();
                 while (dataReader.hasNextLine()) {
                     String fileData = dataReader.nextLine();
+
                     String arr[]=fileData.split(" ");
 
                     int mileage=Integer.parseInt(arr[3]);
 
                     if(map.containsKey(arr[1])){
                         ArrayList<Integer> arrlist=new ArrayList<>();
+
                         arrlist.add(map.get(arr[1]).get(0)+1); // increase the number of cars belong to manufacture
                         arrlist.add(map.get(arr[1]).get(1)+mileage); // sum of mileage of cars
                         map.put(arr[1],arrlist);
@@ -162,7 +165,7 @@ public class Vehicle {
 
                 }
 
-                System.out.println(map);
+                System.out.println();
                 // mileage per manufacture car
 
                for(String manufacture:map.keySet()){

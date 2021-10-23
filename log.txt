@@ -1,0 +1,21 @@
+Oct 21, 2021 11:25:32 AM Assignment.assignment1.Logfile main
+INFO: first input1
+Oct 21, 2021 11:25:37 AM Assignment.assignment1.Logfile main
+INFO: second input2
+Oct 21, 2021 11:25:37 AM Assignment.assignment1.Logfile main
+INFO: The addition of two number is 3
+Oct 21, 2021 11:26:17 AM Assignment.assignment1.Logfile main
+INFO: first input 34
+Oct 21, 2021 11:26:18 AM Assignment.assignment1.Logfile main
+INFO: second input 23
+Oct 21, 2021 11:26:18 AM Assignment.assignment1.Logfile main
+INFO: The addition of two number is 57
+
+
+<ford:[1,2,3,4,5]
+23/5Oct 21, 2021 12:25:41 PM Assignment.assignment1.Logfile main
+INFO: first input 3
+Oct 21, 2021 12:25:49 PM Assignment.assignment1.Logfile main
+INFO: second input 4
+Oct 21, 2021 12:25:49 PM Assignment.assignment1.Logfile main
+INFO: The addition of two number is 7

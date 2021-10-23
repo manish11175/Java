@@ -64,6 +64,8 @@ public class JsonParsing {
             System.out.println("Resume Create successfully ........");
         }
     }
+
+
     static void readResume(File file){
         if(file.exists()){
 
@@ -95,8 +97,11 @@ public class JsonParsing {
                     String fileData = dataReader.nextLine();
                     Object obj =new JSONParser().parse(fileData);
                     JSONObject jo = (JSONObject) obj;
+
                     double experience = (double) jo.get("experience");
+
                     Map company = ((Map)jo.get("company"));
+
                     String startDate=(String)company.get("startDate");
                     String endDate=(String)company.get("endDate");
 
@@ -111,6 +116,7 @@ public class JsonParsing {
                         double difference_In_Years
                                 = (difference_In_Time
                                 / (1000l * 60 * 60 * 24 * 365));
+                        System.out.println(difference_In_Years);
 
                     }
                     catch (ParseException e) {
@@ -140,7 +146,7 @@ public class JsonParsing {
 //        createResume(arr,fw);
 
         File file =new File("resume.txt");
-//        readResume(file);
+        readResume(file);
           validateExperience(file);
     }
 }
